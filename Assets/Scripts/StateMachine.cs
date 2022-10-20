@@ -38,7 +38,7 @@ public class StateMachine : MonoBehaviour
                 StartCoroutine(HuntState());
                 break;
             default:
-                Debug.Log("404 State not found, State does not exist in NextState function, stoppings statemachine \n_state: " + _state);
+                Debug.Log("404 State not found, State does not exist in NextState() function, stopping statemachine \n_state: " + _state);
                 break;
         }
     }
